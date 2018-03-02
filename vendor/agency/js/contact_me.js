@@ -15,6 +15,7 @@ $(function() {
       var email = $("input#email").val();
       var phone = $("input#phone").val();
       var message = $("textarea#message").val();
+      var captcha = $("textarea#g-recaptcha-response").val()
       var firstName = name; // For Success/Failure Message
       // Check for white space in name for Success/Fail message
       if (firstName.indexOf(' ') >= 0) {
@@ -23,7 +24,12 @@ $(function() {
       $this = $("#sendMessageButton");
       $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
 
-      if( !name || !email || !phone || !message ) {
+      if (!captcha) {
+        var captchaGroup = $("textarea#g-recaptcha-response").parents(".form-group").first();
+        captchaGroup.addClass("error")
+      }
+
+      if( !name || !email || !phone || !message || !captcha ) {
         return
       }
 
