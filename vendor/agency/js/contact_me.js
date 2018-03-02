@@ -22,6 +22,11 @@ $(function() {
       }
       $this = $("#sendMessageButton");
       $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
+
+      if( !name || !email || !phone || !message ) {
+        return
+      }
+
       $.ajax({
         url: $form.attr("action"),
         type: "POST",
