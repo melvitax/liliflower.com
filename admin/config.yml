@@ -47,8 +47,15 @@ collections:
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: URL, name: link, widget: string}
+          - label: Resources
+            name: resources
+            widget: list
+            create: true
+            fields:
+            - {label: Title, name: title, widget: string}
+            - {label: Subtitle, name: subtitle, widget: string}
+            - {label: Image, name: image, widget: image}
+            - {label: URL, name: link, widget: string}
       - label: "Testimonials"
         name: "testimonials"
         file: "_data/testimonials.yml"
@@ -67,9 +74,13 @@ collections:
       - label: "Affiliations"
         name: "affiliations"
         file: "_data/affiliations.yml"
-        widget: list
-        create: true
+        create: false
         fields:
-          - {label: Name, name: name, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: URL, name: url, widget: string}
+          - label: Companies
+            name: companies
+            widget: list
+            create: true
+            fields:
+            - {label: Name, name: name, widget: string}
+            - {label: Image, name: image, widget: image}
+            - {label: URL, name: url, widget: string}

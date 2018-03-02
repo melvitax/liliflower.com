@@ -1,11 +1,12 @@
-- name: "Mind Body Green"
-  image: "/images/logos/mbg.svg"
-  url: "https://www.mindbodygreen.com"
+companies:
+  - name: "Mind Body Green"
+    image: "/images/logos/mbg.svg"
+    url: "https://www.mindbodygreen.com"
 
-- name: "Well+Good"
-  image: "/images/logos/well+good.svg"
-  url: "https://www.wellandgood.com"
+  - name: "Well+Good"
+    image: "/images/logos/well+good.svg"
+    url: "https://www.wellandgood.com"
 
-- name: "Health Coach Institute"
-  image: "/images/logos/health-coach-institute.svg"
-  url: "http://www.healthcoachinstitute.com"
+  - name: "Health Coach Institute"
+    image: "/images/logos/health-coach-institute.svg"
+    url: "http://www.healthcoachinstitute.com"
