@@ -9,6 +9,7 @@ $(function() {
     submitSuccess: function($form, event) {
       console.log("form submit begin")
       console.log("fields: "+$form.serialize())
+      /*
       event.preventDefault(); // prevent default submit behaviour
       // get values from FORM
       var name = $("input#name").val();
@@ -25,6 +26,7 @@ $(function() {
       $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
 
       if (!captcha) {
+        console.log()
         var captchaGroup = $("textarea#g-recaptcha-response").parents(".form-group").first();
         captchaGroup.addClass("error")
       }
@@ -68,6 +70,7 @@ $(function() {
           }, 1000);
         }
       });
+      */
     },
     filter: function() {
       return $(this).is(":visible");
