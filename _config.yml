@@ -3,8 +3,4 @@ baseurl:
 # Build settings
 markdown: kramdown
 permalink: pretty
-sass:
-    style: compressed
-plugins:
-  
 exclude: ["Gemfile", "Gemfile.lock", "README.md", "LICENSE"] 
