@@ -4,8 +4,10 @@ $(function() {
     preventSubmit: true,
     submitError: function($form, event, errors) {
       // additional error messages or events
+      console.log("form submit error: "+errors)
     },
     submitSuccess: function($form, event) {
+      console.log("form submit begin")
       event.preventDefault(); // prevent default submit behaviour
       // get values from FORM
       var name = $("input#name").val();
@@ -25,6 +27,7 @@ $(function() {
         data: $form.serialize(),
         cache: false,
         success: function() {
+          console.log("form submit success")
           // Success message
           $('#success').html("<div class='alert alert-success'>");
           $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
@@ -37,6 +40,7 @@ $(function() {
           $('#contactForm').trigger("reset");
         },
         error: function() {
+          console.log("form submit error")
           // Fail message
           $('#success').html("<div class='alert alert-danger'>");
           $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
