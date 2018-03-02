@@ -14,6 +14,7 @@ collections:
       - label: "Intro"
         name: "intro"
         file: "_data/intro.yml"
+        fields:
           - {label: Line 1, name: line1, widget: string}
           - {label: Line 2, name: line2, widget: string}
           - {label: Call To Action, name: calltoaction, widget: string}
