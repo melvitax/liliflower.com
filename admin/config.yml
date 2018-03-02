@@ -55,7 +55,7 @@ collections:
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
-          - label:Testimonials
+          - label: Testimonials
             name: testimonials
             widget: list
             create: true
