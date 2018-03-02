@@ -8,6 +8,7 @@ $(function() {
     },
     submitSuccess: function($form, event) {
       console.log("form submit begin")
+      console.log("fields: "+$form.serialize())
       event.preventDefault(); // prevent default submit behaviour
       // get values from FORM
       var name = $("input#name").val();
