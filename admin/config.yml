@@ -1,19 +1,74 @@
 backend:
-  name: github
-  repo: melvitax/liliflower.com # Path to your Github repository
-  branch: master # Branch to update (master by default)
+  name: git-gateway
+  repo: melvitax/liliflower.com 
+  branch: master 
 
-#publish_mode: editorial_workflow
+publish_mode: editorial_workflow
+base_url: http://liliflower.com
+media_folder: "images/uploads" 
 
-media_folder: "img/uploads" # Folder where user uploaded files should go
-
-collections: # A list of collections the CMS should be able to edit
-  - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Post" # Used in the UI, ie.: "New Post"
-    folder: "_posts" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Foo", name: "foo", widget: "foo"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
+collections:
+  - name: "section" 
+    label: "Section" 
+    files: 
+      - label: "Intro"
+        name: "intro"
+        file: "_data/intro.yml"
+          - {label: Line 1, name: line1, widget: string}
+          - {label: Line 2, name: line2, widget: string}
+          - {label: Call To Action, name: calltoaction, widget: string}
+      - label: "Welcome"
+        name: "welcome"
+        file: "_data/welcome.yml"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: Content, name: content, widget: markdown}
+      - label: "Services"
+        name: "services"
+        file: "_data/services.yml"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: Call To Action, name: calltoaction, widget: string}
+          - label: Packages
+            name: packages
+            widget: list
+            create: true
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Icon, name: icon, widget: string}
+              - {label: Subtitle, name: subtitle, widget: string}
+              - {label: Descriptiom, name: description, widget: string}
+      - label: "Resources"
+        name: "resources"
+        file: "_data/resources.yml"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: Image, name: image, widget: image}
+          - {label: URL, name: link, widget: string}
+      - label: "Testimonials"
+        name: "testimonials"
+        file: "_data/testimonials.yml"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - label:Testimonials
+            name: testimonials
+            widget: list
+            create: true
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Program, name: program, widget: string}
+              - {label: Image, name: image, widget: image}
+              - {label: Quote, name: quote, widget: string}
+      - label: "Affiliations"
+        name: "affiliations"
+        file: "_data/affiliations.yml"
+        widget: list
+        create: true
+        fields:
+          - {label: Name, name: name, widget: string}
+          - {label: Image, name: image, widget: image}
+          - {label: URL, name: url, widget: string}

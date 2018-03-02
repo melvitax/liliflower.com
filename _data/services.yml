@@ -1,0 +1,44 @@
+title: "Services"
+subtitle: "Pick your transformation package"
+calltoaction: "Book A Consult"
+packages: 
+  - name: Energy Boost
+    icon: fa-battery-three-quarters
+    subtitle: Acces the energy to live life to the fullest
+    description: " - Discover what doubling your energy will mean for you and your life
+
+    - Learn which foods and lifestyle habits are sapping your enrgy...and what to do about it
+
+    - Uncover what's been slowing your down or keeping you from having the energy you want
+
+    - Get a step-by-step plan to double your energy"
+  - name: Weight Loss
+    icon: fa-tachometer
+    subtitle: Get to the root of your struggle loosing weight
+    description: "- Uncover what's been stopping you, slowing you down or keeping you from having the body - and the health - you want
+      
+    - Develop a powerful vision for your Total Transformation and what it will mean to you and your life
+    
+    - Discover which foods and lifestyle habits are bringing you down... and what to do about it
+    
+    - Get crystal clear on a step by step plan to create a Total Body Transformation in 90 days or less"
+  - name: Staying Young
+    icon: fa-hourglass-end
+    subtitle: Defy the aging process by reclaiming your body
+    description: "- Uncover what's been stopping you, slowing you down or keeping you from feeling fabulous
+      
+      - Develop a powerful vision for what Fabulous Over 50 looks like for you
+      
+      - Discover which foods and lifestyle habits are sapping your Fabulousness... and what to do about it
+      
+      - Get crystal clear on a step by step plan to feel Fabulous in 90 days or less"
+  - name: Health 101
+    icon: fa-heartbeat
+    subtitle: When you want but don't know where to begin
+    description: "- Uncover what's been stopping you, slowing you down or keeping you from having the health you want
+      
+      - Develop a powerful vision for what Healthy means to you and your body
+      
+      - Discover which foods and lifestyle habits are affecting you health... and what to do about it
+      
+      - Get crystal clear on a step by step plan to be healthy in 90 days or less"

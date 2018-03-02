@@ -1,0 +1,31 @@
+# Site settings
+title: "Lilia / Health Coach"
+author: "Lilia Rivera"
+role: "Health Coach"
+avatar: "/images/team/lilia.jpg"
+email: "&#104;&#101;&#108;&#108;&#111;&#064;&#108;&#105;&#108;&#105;&#102;&#108;&#111;&#119;&#101;&#114;&#046;&#099;&#111;&#109;"
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+social:
+  - name: Twitter
+    icon: fa-twitter
+    url: https://twitter.com/liliflower
+  - name: Facebook
+    icon: fa-facebook
+    url: https://www.facebook.com/liliflower
+  - name: Pinterest
+    icon: fa-pinterest
+    url: https://pinterest.com/blueliliflower
+  - name: Instagram
+    icon: fa-instagram
+    url: https://instagram.com/blueliliflower
+menu:
+  - label: "Welcome"
+    url: "/#welcome"
+  - label: "Services"
+    url: "/#services"
+  - label: "Resources"
+    url: "/#resources"
+  - label: "Testimonials"
+    url: "/#testimonials"
+  - label: "Contact"
+    url: "/#contact"

@@ -1,1 +1,20 @@
 # liliflower.com
+
+
+## Installing Jekyll
+```
+gem install jekyll
+```
+
+## Develop with local server
+
+```
+$ jekyll serve
+
+```
+
+## Compile
+
+```
+$ jekyll build
+``` 

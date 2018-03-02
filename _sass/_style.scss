@@ -1,0 +1,56 @@
+
+
+/*
+Packages   
+**********************/
+
+#services .section-subheading {
+    font-size: 1.4em;
+    line-height: 1.45em;
+    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding-top: 0.5em;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: none;
+}
+#services ul {
+    text-align: left;
+    padding-left: 0;
+}
+#services li {
+    text-align: left;
+    padding: 0.3em 0;
+    font-size: 1.0em;
+    list-style: none;
+}
+#services li::before {
+    content: "\f105";
+    font-family: FontAwesome;
+    color: #fed136; 
+    margin-left: -15px;
+    margin-right: 10px;
+  }
+#services li:last-child::before {
+    content: "";
+    margin: 0;
+}
+.timeline-heading .subheading {
+    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: none;
+}
+.timeline-body blockquote {
+    margin: 1.5em 0;
+    padding: 0.5em 0;
+    quotes: "\201C""\201D";
+}
+.timeline-body blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }

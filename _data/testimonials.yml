@@ -1,0 +1,24 @@
+title: "Testimonials"
+subtitle: "Lorem ipsum dolor sit amet consectetur"
+calltoaction: "Be Part Of Our Story!"
+testimonials: 
+  - name: Melvin R.
+    program: Weigh Loss Transformation
+    image: "/images/testimonials/melvin-r.jpg"
+    quote: "She has a deep understanding of the subject but somehow makes it easy to understand and turn into action. She meets you where you are and understands health in it's full hollistic scope. I lost 25 pounds in 30 days but  most importantly gained the tools to keep them off."
+  - name: Belinda P.
+    program: Health 101
+    image: "/images/testimonials/user-1.jpg"
+    quote: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+  - name: Abel P.
+    program: Weigh Loss Transformation
+    image: "/images/testimonials/user-2.jpg"
+    quote: "Quis culpa duis dolore quis sint aute do nostrud in cillum dolore ad fugiat. Ullamco elit sint ea labore cillum esse qui aute nostrud laborum. Incididunt irure occaecat reprehenderit fugiat."
+  - name: Julie P.
+    program: Health 101
+    image: "/images/testimonials/user-3.jpg"
+    quote: "Nostrud eu nisi ad in qui. Officia amet occaecat ut nostrud velit nisi id ad. Ea incididunt laborum velit officia do officia. Elit magna consequat aliquip voluptate occaecat irure ad pariatur ex ex."
+  - name: Brett R.
+    program: Weigh Loss Transformation
+    image: "/images/testimonials/user-4.jpg"
+    quote: "Consectetur occaecat ullamco ut anim nostrud esse nisi sint eiusmod eiusmod consectetur. Esse ipsum aliquip non nulla sunt dolor eiusmod fugiat non incididunt officia ullamco proident eiusmod."
