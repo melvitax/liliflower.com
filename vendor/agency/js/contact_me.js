@@ -20,7 +20,7 @@ $(function() {
       if (!captcha) {
         var captchaGroup = $("textarea#g-recaptcha-response").parents(".form-group").first();
         captchaGroup.addClass("error")
-        $(captchaGroup).find("help-block").first().html('<ul role="alert"><li>Please enter your phone number.</li></ul>')
+        $(captchaGroup).find(".help-block").first().html('<ul role="alert"><li>Please enter your phone number.</li></ul>')
       }
 
       if( !name || !email || !phone || !message || !captcha ) {
