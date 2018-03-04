@@ -23,8 +23,8 @@ collections:
           - {label: Description, name: description, widget: string}
           - {label: Photo Credit, name: photo-credit, widget: string}
           - {label: Twitter, name: twitter, widget: string}
-          - {labe: "Technology Credit", name: tech-credit, widget: string}
-          - {labe: "Technology Colophon", name: tech-colophon, widget: string}
+          - {label: "Technology Credit", name: tech-credit, widget: string}
+          - {label: "Technology Colophon", name: tech-colophon, widget: string}
           - label: Social
             name: social
             widget: list
