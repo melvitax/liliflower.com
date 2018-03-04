@@ -1,6 +1,3 @@
----
-
----
 # liliflower.com
 
 ![Liliflower.com Screenshot](https://raw.githubusercontent.com/melvitax/liliflower.com/master/_screenshot.jpg "Liliflower.com")
