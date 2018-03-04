@@ -19,7 +19,7 @@ collections:
           - {label: Author, name: author, widget: string}
           - {label: Role, name: role, widget: string}
           - {label: Photo, name: avatar, widget: image}
-          - {label: Email, name: email, widget: string}
+          - {label: Encoded Email, name: email, widget: string}
           - {label: Description, name: description, widget: string}
           - {label: Photo Credit, name: photo-credit, widget: string}
           - {label: Twitter, name: twitter, widget: string}
