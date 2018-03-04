@@ -1,20 +1,34 @@
+---
+
+---
 # liliflower.com
 
+![Liliflower.com Screenshot](https://raw.githubusercontent.com/melvitax/liliflower.com/master/_screenshot.jpg "Liliflower.com")
 
-## Installing Jekyll
+## Technology Credit
+{{site.data.global.photo-credit}
+
+## Technology Colophon
+{{site.data.global.photo-colophon}
+
+## Running The Project
+
+### Installing Jekyll
 ```
-gem install jekyll
+$ gem install jekyll
 ```
 
-## Develop with local server
-
+### Installing Bundler
 ```
-$ jekyll serve
-
+$ gem install bundler
 ```
 
-## Compile
-
+### Installing Github Pages
 ```
-$ jekyll build
-``` 
+$ bundle install
+```
+
+### Develop in local server
+```
+$ bundle exec jekyll serve
+```

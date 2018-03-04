@@ -1,0 +1,17 @@
+---
+
+---
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+  {{site.data.global.author}} --- {{site.data.global.role}} --- @{{site.data.global.twitter}}
+
+# THANKS
+
+{{site.data.global.photo-credit}}
+
+# TECHNOLOGY COLOPHON
+
+  HTML5, CSS3, Sass, Jekyll, Agency Theme, JQuery, Bootstrap, Google Fonts, GitHub, Netlyfy, Netlify CMS
