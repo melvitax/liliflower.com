@@ -10,8 +10,8 @@ date: 2018-03-01
 {{site.data.global.photo-credit}}
 
 ## Technology Credit
-{{site.data.global.photo-credit}}
+{{site.data.global.tech-credit}}
 
 ## Technology Colophon
-{{site.data.global.photo-colophon}}
+{{site.data.global.tech-colophon}}
 

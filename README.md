@@ -6,10 +6,10 @@
 ![Liliflower.com Screenshot](https://raw.githubusercontent.com/melvitax/liliflower.com/master/_screenshot.jpg "Liliflower.com")
 
 ## Technology Credit
-{{site.data.global.photo-credit}}
+This website uses the Jekyll static file generator and is hosted at GitHub. It uses a customized Agency Jekyll template so the content can be managed via the Netlify CMS.
 
 ## Technology Colophon
-{{site.data.global.photo-colophon}}
+HTML5, CSS3, Sass, Jekyll, Agency Theme, JQuery, Bootstrap, Google Fonts, GitHub, Netlyfy, Netlify CMS
 
 ## Running The Project
 
