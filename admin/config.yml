@@ -8,8 +8,57 @@ base_url: http://liliflower.com
 media_folder: "images/uploads" 
 
 collections:
-  - name: "section" 
-    label: "Section" 
+  - name: "site"
+    label: "Site"
+    files:
+      - label: "Global"
+        name: "global"
+        file: "_data/global.yml"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Author, name: author, widget: string}
+          - {label: Role, name: role, widget: string}
+          - {label: Photo, name: avatar, widget: image}
+          - {label: Email, name: role, widget: string}
+          - {label: Description, name: description, widget: string}
+          - label: Social
+            name: social
+            widget: list
+            create: true
+            fields:
+            - {label: Name, name: name, widget: string}
+            - {label: Icon, name: icon, widget: string}
+            - {label: URL, name: url, widget: string}
+          - label: Menu
+            name: menu
+            widget: list
+            create: true
+            fields:
+            - {label: Label, name: label, widget: string}
+            - {label: URL, name: url, widget: string}
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "Terms of Use"
+        name: "terms"
+        file: "terms.md"
+        fields:
+          - {label: "Title", name: "title", widget: "text"}
+          - {label: "Content", name: "body", widget: "markdown"}
+      - label: "Privacy Policy"
+        name: "privacy"
+        file: "privacy.md"
+        fields:
+          - {label: "Title", name: "title", widget: "text"}
+          - {label: "Content", name: "body", widget: "markdown"}
+      - label: "Thank You"
+        name: "thank-you"
+        file: "thank-you.md"
+        fields:
+          - {label: "Title", name: "title", widget: "text"}
+          - {label: "Content", name: "body", widget: "markdown"}
+  - name: "home" 
+    label: "Home" 
     files: 
       - label: "Intro"
         name: "intro"
@@ -84,3 +133,4 @@ collections:
             - {label: Name, name: name, widget: string}
             - {label: Image, name: image, widget: image}
             - {label: URL, name: url, widget: string}
+      
