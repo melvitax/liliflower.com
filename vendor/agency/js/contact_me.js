@@ -15,15 +15,15 @@ $(function() {
       var email = $("input#email").val();
       var phone = $("input#phone").val();
       var message = $("textarea#message").val();
-      var captcha = $("textarea#g-recaptcha-response").val()
+      // var captcha = $("textarea#g-recaptcha-response").val()
 
-      if (!captcha) {
-        var captchaGroup = $("textarea#g-recaptcha-response").parents(".form-group").first();
-        captchaGroup.addClass("error")
-        $(captchaGroup).find(".help-block").first().html('<ul role="alert"><li>Please authenticate CAPTCHA</li></ul>')
-      }
+      // if (!captcha) {
+      //   var captchaGroup = $("textarea#g-recaptcha-response").parents(".form-group").first();
+      //   captchaGroup.addClass("error")
+      //   $(captchaGroup).find(".help-block").first().html('<ul role="alert"><li>Please authenticate CAPTCHA</li></ul>')
+      // }
 
-      if( !name || !email || !phone || !message || !captcha ) {
+      if( !name || !email || !phone || !message ) {
         event.preventDefault(); // prevent default submit behaviour
         return
       }
