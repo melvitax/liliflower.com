@@ -1,7 +1,7 @@
 // Add inverted rows to timeline
 $(document).ready(function(){
   $(".timeline li:odd").addClass("timeline-inverted")
-  var formURL = $("#contactForm").attr("action")
+  var formURL = $("#contactForm").attr("action").value()
   formURL += "melvitax"
   formURL += "@"
   formURL += "me"
