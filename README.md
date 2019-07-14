@@ -15,9 +15,9 @@ HTML5, CSS3, Sass, Jekyll, Agency Theme, JQuery, Bootstrap, Google Fonts, GitHub
 $ gem install jekyll
 ```
 
-### Installing Bundler
+### Installing Bundler (2.0.1 is the version supported by Netlify CMS)
 ```
-$ gem install bundler
+$ gem install bundler -v 2.0.1
 ```
 
 ### Installing Github Pages
